@@ -5,11 +5,11 @@ import Int "mo:core/Int";
 import Map "mo:core/Map";
 import Array "mo:core/Array";
 import Runtime "mo:core/Runtime";
-import Migration "migration";
+
 import Text "mo:core/Text";
 import Order "mo:core/Order";
 
-(with migration = Migration.run)
+
 actor {
   public type TransportMode = {
     #car;
